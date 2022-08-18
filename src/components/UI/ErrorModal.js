@@ -4,6 +4,8 @@ import Button from "./Button";
 import classes from "./ErrorModal.module.css";
 
 const ErrorModal = (props) => {
+    // const onConfirm =
+
   return (
     <div>
       <div className={classes.backdrop} onClick={props.onConfirm} />
